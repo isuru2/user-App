@@ -55,7 +55,7 @@ render(){
                                     <div className="avatar"> <Avatar alt="" src={data.avatar} sx={{ width: '15em', height: '15em' }} /></div>
                                 </div>
                                 <Card.Body>
-                                    <Card.Title className="nameStyle">{data.first_name} {" "} {data.last_name}</Card.Title>
+                                    <Card.Title className="nameStyle">{data.first_name}</Card.Title>
                                     <Card.Text className="emailStyle">
                                         {data.email}
                                     </Card.Text>
